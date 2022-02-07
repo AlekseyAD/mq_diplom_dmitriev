@@ -1,0 +1,155 @@
+@media (max-width: 360px) {
+  h1 {
+    font-size: 20px;
+  }
+  /*---------HEADER------------*/
+  .header {
+    background-image: url("../images/banner-mobile.jpg");
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .article-img {
+    display: none;
+  }
+
+  .aside {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+}
+
+@media (min-width: 360px) {
+  h1 {
+    font-size: 1.9em;
+  }
+  /*---------HEADER------------*/
+  .header {
+    background-image: url("../images/banner-mobile.jpg");
+  }
+
+  .logo {
+    max-width: 158px;
+    margin-left: 15px;
+  }
+
+  .menu {
+    display: none;
+  }
+  /*----------TRENDS-----------*/
+  .trend {
+    margin: 5px auto;
+  }
+  /*------------CONTENT--------*/
+  .page-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  /*----------MAIN-------------*/
+  .article {
+    flex-wrap: wrap;
+  }
+
+  .article-img-post {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+  /*---------HEADER------------*/
+  .header {
+    background-image: url("../images/banner-bg-tablet.jpg");
+  }
+
+  .menu {
+    display: none;
+  }
+
+  /*----------TRENDS-----------*/
+  .trend {
+    width: 49%;
+    margin: 3px 3px;
+  }
+
+  .trend-content {
+    padding: 60px 30px 30px 10px;
+  }
+
+  .trends-posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: inherit;
+  }
+
+  .page-content {
+    flex-direction: row;
+  }
+  /*-----------SHOP---------------*/
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: inherit;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .product {
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+      font-size: 2.5em;
+    }
+  /*---------HEADER------------*/
+  .header {
+    background-image: url("../images/banner-bg.jpg");
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  /*----------TRENDS-----------*/
+  .trend {
+    width: 100%;
+    margin-left: 4px;
+  }
+  .trends-posts-container {
+    flex-wrap: nowrap;
+  }
+
+  .trend:nth-child(3) {
+    margin-left: 4px;
+  }
+
+  .trend-content {
+    padding: 15px 34px 37px;
+  }
+
+  /*----------MAIN-------------*/
+  .article {
+    flex-wrap: nowrap;
+  }
+  /*------------SHOP-------------*/
+  .product {
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}
