@@ -59,6 +59,10 @@
   .article-img-post {
     max-width: 100%;
   }
+/*----------SHOP-------------*/
+  .product {
+    margin: 0 10px 15px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -105,7 +109,7 @@
   }
 
   .product {
-    margin-bottom: 5px;
+    margin: 0 30px 15px;
   }
 }
 
@@ -149,7 +153,6 @@
   }
   /*------------SHOP-------------*/
   .product {
-    margin: 0 auto;
     box-sizing: border-box;
   }
 }
