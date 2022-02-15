@@ -1,13 +1,13 @@
 /*-----------ALL----------*/
 @font-face {
-  font-family: OpenSans-regular;
+  font-family: OpenSans;
   src: url("../fonts/OpenSans-Regular.woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: OpenSans-bold;
+  font-family: OpenSans;
   src: url("../fonts/OpenSans-Bold.woff");
   font-weight: 600;
   font-style: normal;
@@ -27,6 +27,7 @@ html {
 }
 
 body {
+  font-family: OpenSans;
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
@@ -41,7 +42,7 @@ a {
 }
 
 h1 {
-  font-family: OpenSans-bold;
+  font-weight: bold;
   font-size: 45px;
   line-height: 75px;
   color: white;
@@ -50,7 +51,7 @@ h1 {
 }
 
 h2 {
-  font-family: OpenSans-bold;
+  font-weight: bold;
   font-size: 14px;
   line-height: 18px;
   color: black;
@@ -59,7 +60,7 @@ h2 {
 }
 
 h3 {
-  font-family: OpenSans-bold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 24px;
   color: black;
@@ -172,7 +173,7 @@ ul {
   position: absolute;
   width: 18px;
   height: 18px;
-  top: 0;
+  top: 5px;
   left: -35px;
   background-image: url(../svg/form-empty-circle.svg);
   background-size: cover;
@@ -199,6 +200,8 @@ ul {
 }
 
 .button-submit {
+  font-family: OpenSans;
+  font-weight: bold;
   font-size: 14px;
   width: 100%;
   height: 7vh;
@@ -261,7 +264,6 @@ ul {
 }
 
 .menu a {
-  font-family: OpenSans-bold;
   font-size: 13px;
   color: #ffffff;
 }
@@ -281,14 +283,12 @@ ul {
 .burger-menu {
   display: block;
   position:static;
-  margin-right: 35px;
 }
 
 .burger-buttom {
   width: 38px;
   height: 31px;
   display: block;
-  position:absolute;
   background: transparent;
   border: 3px solid transparent;
  }
@@ -330,7 +330,7 @@ ul {
 }
 
 .trends-title a {
-  font-family: OpenSans-bold;
+  font-weight: bold;
   font-size: 22px;
   color: #000000;
 }
@@ -343,10 +343,13 @@ ul {
 .trend {
   display: flex;
   width: 100%;
+  height: 321px;
   align-items: flex-end;
   justify-content: center;
   background-color: #000000;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .trend:after {
@@ -362,13 +365,26 @@ ul {
   
 }
 
-.trend-img {
-  width: 100%;
-  height: 100%;
+.trend-img-1 {
+  background-image: url("../images/trend1.jpg");
+}
+
+.trend-img-2 {
+  background-image: url("../images/trend2.jpg");
+}
+
+.trend-img-3 {
+  background-image: url("../images/trend3.jpg");
+}
+
+.trend-img-4 {
+  background-image: url("../images/trend4.jpg");
 }
 
 .trend-container {
-  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
   padding: 20px 16px;
   z-index: 1;
 }
@@ -383,7 +399,7 @@ ul {
   display: flex;
   margin-bottom: 15px;
   color: #b59f5b;
-  font-family: OpenSans-bold;
+  font-weight: bold;
   font-size: 14px;
 }
 
@@ -397,10 +413,11 @@ ul.trend-tag {
 
 .trend-title-link {
   max-width: 340px;
-  font-family: OpenSans-bold;
+  font-weight: bold;
   font-size: 20px;
   line-height: 20px;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*-----------PAGE-CONTENT--------------*/
@@ -408,7 +425,7 @@ ul.trend-tag {
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 64px;
   padding: 0 15px;
 }
 
@@ -419,8 +436,8 @@ ul.trend-tag {
 
 .article {
   display: flex;
-  margin-left: 3px;
-  margin-bottom: 56px;
+  margin-bottom: 59px;
+  margin-right: 15px;
 }
 .article:nth-child(n + 2) {
   margin-top: 56px;
@@ -432,14 +449,13 @@ ul.trend-tag {
 }
 
 .article-img-post {
-  min-width: 50%;
+  width: 100%;
 }
 
 .article-content {
-  margin-left: 30px;
-  font-family: open-sans-r, sans-serif;
   font-size: 16px;
   line-height: 1.2;
+  border-bottom: 4px solid #eeeeee;
 }
 
 .article-tags {
@@ -452,8 +468,8 @@ ul.trend-tag {
 .article-tag a {
   margin-right: 20px;
   color: #b59f5b;
-  font-family: OpenSans-bold;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .article-tag a:hover {
@@ -473,13 +489,14 @@ ul.trend-tag {
 }
 
 .article-author {
-  font-family: OpenSans-bold;
+  font-weight: bold;
 }
 
 .article-text {
   font-family: OpenSans;
   font-size: 17px;
   line-height: 24px;
+  margin-bottom: 35px;
 }
 
 /*-----------ASIDE--------------*/
@@ -542,7 +559,6 @@ ul.trend-tag {
 }
 
 .recent-post-date {
-  font-family: OpenSans-regular;
   color: #888888;
   font-size: 12px;
 }
@@ -559,7 +575,7 @@ ul.trend-tag {
   padding-right: 51px;
   border: none;
   background-color: #f4f7f6;
-  font-family: OpenSans-regular;
+  font-family: OpenSans;
   font-size: 13px;
 }
 
@@ -593,7 +609,7 @@ ul.trend-tag {
   padding-right: 18px;
   border: none;
   background-color: #f4f7f6;
-  font-family: OpenSans-regular;
+  font-family: OpenSans;
   font-size: 13px;
 }
 
@@ -603,7 +619,8 @@ ul.trend-tag {
   height: 48px;
   border: none;
   background-color: #b59f5b;
-  font-family: OpenSans-bold;
+  font-family: OpenSans;
+  font-weight: bold;
   font-size: 14px;
   line-height: 18px;
   color: white;
@@ -631,8 +648,8 @@ li.tag-item {
   margin-bottom: 6px;
   padding: 6px 13px 6px 13px;
   border: solid 3px #eeeeee;
-  font-family: OpenSans-bold;
   font-size: 12px;
+  font-weight: bold;
 }
 
 li.tag-item:hover {
@@ -657,7 +674,7 @@ ul.category {
 .category-item {
   padding-top: 12px;
   padding-bottom: 12px;
-  font-family: OpenSans-bold;
+  font-weight: bold;
   font-size: 14px;
   text-transform: none;
   border-color: #eeeeee;
@@ -712,10 +729,6 @@ ul.category {
   margin: 0 auto;
 }
 
-.product:last-child {
-  margin-bottom: 0;
-}
-
 .product-picture {
   width: 100%;
   background-repeat: no-repeat;
@@ -743,7 +756,6 @@ ul.category {
 
 .product-text {
   margin-bottom: 27px;
-  font-family: OpenSans-bold;
   font-size: 15px;
   line-height: 22px;
 }
@@ -761,12 +773,12 @@ ul.category {
 
 .product-price-all {
   text-decoration: line-through;
-  font-family: OpenSans-bold;
+  font-weight: bold;
   font-size: 14px;
 }
 
 .product-price-discount {
-  font-family: OpenSans-bold;
+  font-weight: bold;
   font-size: 20px;
 }
 
@@ -777,15 +789,12 @@ ul.category {
   text-align: center;
   padding-top: 5%;
   color: #ffffff;
-  font-family: OpenSans-bold;
+  font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
 }
 /*-----------FOOTER--------------*/
 footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 100%;
   margin: 50px auto;
   padding: 0 15px;
@@ -794,6 +803,8 @@ footer {
 .footer-social {
   display: flex;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: #f4f7f6;
 }
 
@@ -861,7 +872,7 @@ ul.socials {
   width: 100%;
   display: block;
   font-size: 12px;
-  font-family: OpenSans-bold;
+  font-weight: bold;
   color: #999999;
   text-align: center;
 }
