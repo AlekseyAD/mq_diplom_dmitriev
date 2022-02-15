@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (max-width: 359px) {
   h1 {
     font-size: 20px;
   }
@@ -33,13 +33,21 @@
     background-image: url("../images/banner-mobile.jpg");
   }
 
+  .header-top {
+    flex-wrap: wrap-reverse;
+  }
+
   .logo {
-    max-width: 158px;
-    margin-left: 15px;
+    width: 100%;
+    margin-top: 183px;
   }
 
   .menu {
     display: none;
+  }
+  .header-title h1 {
+    font-size: 26px;
+    line-height: 36px;
   }
   /*----------TRENDS-----------*/
   .trend {
@@ -74,10 +82,20 @@
     background-image: url("../images/banner-bg-tablet.jpg");
   }
 
+  .logo {
+    max-width: 158px;
+    margin-left: 15px;
+    margin-top: 0%;
+  }
+
   .menu {
     display: none;
   }
 
+  .header-title h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
   /*----------TRENDS-----------*/
   .trend {
     width: 49%;
@@ -129,8 +147,14 @@
   .burger-menu {
     display: none;
   }
+
+  .header-title h1 {
+    font-size: 45px;
+    line-height: 75px;
+  }
   /*----------MAIN-----------*/
   .article {
+    flex-direction: row;
     margin-right: 0;
   }
   .article-content {
@@ -158,11 +182,6 @@
 
   .trend-content {
     padding: 15px 34px 37px;
-  }
-
-  /*----------MAIN-------------*/
-  .article {
-    flex-wrap: nowrap;
   }
   /*------------SHOP-------------*/
   .product {

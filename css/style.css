@@ -255,7 +255,7 @@ ul {
 }
 
 .logo {
-  width: 30%;
+  width: 100%;
 }
 
 .menu {
@@ -282,7 +282,7 @@ ul {
 
 .burger-menu {
   display: block;
-  position:static;
+  margin-left: auto;
 }
 
 .burger-buttom {
@@ -438,7 +438,6 @@ ul.trend-tag {
   display: flex;
   justify-content: space-between;
   margin-bottom: 59px;
-  margin-right: 15px;
 }
 .article:nth-child(n + 2) {
   margin-top: 56px;
@@ -503,7 +502,7 @@ ul.trend-tag {
 /*-----------ASIDE--------------*/
 .aside {
   max-width: 272px;
-  margin: 0;
+  margin-left: 15px;
   padding: 0;
   box-sizing: border-box;
 }
