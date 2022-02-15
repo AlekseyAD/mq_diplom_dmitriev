@@ -53,7 +53,7 @@
   }
   /*----------MAIN-------------*/
   .article {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .article-img-post {

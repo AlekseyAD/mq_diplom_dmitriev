@@ -436,6 +436,7 @@ ul.trend-tag {
 
 .article {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 59px;
   margin-right: 15px;
 }
