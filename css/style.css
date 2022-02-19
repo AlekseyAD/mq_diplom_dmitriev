@@ -9,7 +9,7 @@
 @font-face {
   font-family: OpenSans;
   src: url("../fonts/OpenSans-Bold.woff");
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -250,8 +250,8 @@ ul {
 .header-top {
   display: flex;
   justify-content: space-between;
-  padding-top: 26px;
-  margin-bottom: 68px;
+  padding-top: 24px;
+  margin-bottom: 43px;
 }
 
 .logo {
@@ -309,7 +309,7 @@ ul {
   justify-content: space-between;
   max-width: 735px;
   margin: 0 auto;
-  padding-bottom: 70px;
+  padding-bottom: 219px;
   z-index: 2;
 }
 
@@ -337,7 +337,7 @@ ul {
 
 .trends-posts-container {
   display: block;
-  margin-top: 30px;
+  margin-top: 44px;
 }
 
 .trend {
@@ -440,7 +440,7 @@ ul.trend-tag {
   margin-bottom: 59px;
 }
 .article:nth-child(n + 2) {
-  margin-top: 56px;
+  margin-top: 64px;
 }
 
 .article-img {
@@ -501,10 +501,7 @@ ul.trend-tag {
 
 /*-----------ASIDE--------------*/
 .aside {
-  max-width: 272px;
-  margin-left: 15px;
-  padding: 0;
-  box-sizing: border-box;
+  width: 100%;
 }
 
 .recents-posts {
@@ -701,7 +698,7 @@ ul.category {
 
 .shop-title {
   text-align: center;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   position: relative;
   font-size: 20px;
 }

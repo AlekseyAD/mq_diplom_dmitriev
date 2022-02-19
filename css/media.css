@@ -82,19 +82,37 @@
     background-image: url("../images/banner-bg-tablet.jpg");
   }
 
+  .header-top {
+    padding-top: 26px;
+    margin-bottom: 68px;
+  }
+
   .logo {
     max-width: 158px;
     margin-left: 15px;
     margin-top: 0%;
+    padding-bottom: 70px;
   }
 
   .menu {
     display: none;
   }
 
+  .header-title {
+    padding-bottom: 125px;
+  }
+
   .header-title h1 {
     font-size: 40px;
     line-height: 55px;
+  }
+  /*-----------ASIDE--------------*/
+.aside {
+  max-width: 272px;
+  margin-right: 0;
+  margin-left: 15px;
+  padding: 0;
+  box-sizing: border-box;
   }
   /*----------TRENDS-----------*/
   .trend {
@@ -151,6 +169,10 @@
   .header-title h1 {
     font-size: 45px;
     line-height: 75px;
+  }
+
+  .header-title {
+    padding-bottom: 147px;
   }
   /*----------MAIN-----------*/
   .article {
