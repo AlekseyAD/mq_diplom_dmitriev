@@ -115,6 +115,10 @@
   box-sizing: border-box;
   }
   
+  .search-field {
+    min-width: 220px;
+  }
+  
   /*----------TRENDS-----------*/
   .trend {
     width: 49%;
