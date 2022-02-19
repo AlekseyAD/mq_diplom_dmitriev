@@ -107,13 +107,19 @@
     line-height: 55px;
   }
   /*-----------ASIDE--------------*/
-.aside {
+  .aside {
   max-width: 272px;
   margin-right: 0;
   margin-left: 15px;
   padding: 0;
   box-sizing: border-box;
   }
+  
+  .search-field {
+    height: 50px;
+    padding-left: 18px;
+    padding-right: 48px;
+    }
   /*----------TRENDS-----------*/
   .trend {
     width: 49%;
