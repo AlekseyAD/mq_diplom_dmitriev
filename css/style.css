@@ -566,9 +566,9 @@ ul.trend-tag {
 }
 
 .search-field {
-  height: 48px;
-  padding-left: 18px;
-  padding-right: 51px;
+  height: 49px;
+  padding-left: 20px;
+  padding-right: 104px;
   border: none;
   background-color: #f4f7f6;
   font-family: OpenSans;
