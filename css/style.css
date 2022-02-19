@@ -93,11 +93,10 @@ ul {
 }
 
 .popup {
-  position: fixed;
+  position: relative;
   padding: 50px 30px;
   background-color: #ffffff;
-  max-width: 390px;
-  max-height: 596px;
+  max-width: 359px;
   z-index: 2;
 }
 
@@ -109,7 +108,7 @@ ul {
   border: none;
   background-color: transparent;
   top: -25px;
-  left: 370px;
+  left: 330px;
 }
 
 .popup-title {
@@ -204,7 +203,7 @@ ul {
   font-weight: bold;
   font-size: 14px;
   width: 100%;
-  height: 7vh;
+  height: 50px;
   text-transform: uppercase;
   background-color: #b59f5b;
   color: #ffffff;
