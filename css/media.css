@@ -2,6 +2,10 @@
   h1 {
     font-size: 20px;
   }
+
+  .page {
+    min-width: 178px;
+  }
   /*---------HEADER------------*/
   .header {
     background-image: url("../images/banner-mobile.jpg");
@@ -11,11 +15,27 @@
     display: none;
   }
 
+  .burger-menu {
+    display: none;
+  }
+
+  .trend {
+    display: none;
+  }
+
+  .trends-title {
+    display: none;
+  }
+
   .article-img {
     display: none;
   }
 
   .aside {
+    display: none;
+  }
+
+  .shop {
     display: none;
   }
 
