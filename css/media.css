@@ -89,7 +89,7 @@
   }
 /*----------SHOP-------------*/
   .product {
-    margin: 0 10px 15px;
+    margin: 15px auto;
   }
 }
 
@@ -170,7 +170,7 @@
   }
 
   .product {
-    margin: 0 30px 15px;
+    margin: 0 4% 15px;
   }
 }
 
@@ -232,6 +232,7 @@
   }
   /*------------SHOP-------------*/
   .product {
+    margin: 0 30px 15px;
     box-sizing: border-box;
   }
 }
